@@ -1,0 +1,30 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~@angular/material/theming';
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  width: 500px;
+  margin: auto;
+  background-color: white;
+  @include mat-elevation(8);
+}
+
+.card > .title {
+  padding: 20px;
+  font-size: 20px;
+  background-color: mat-color(mat-palette($mat-indigo));
+  color: white;
+}
+.card > .title.error {
+  background-color: mat-color(mat-palette($mat-pink));
+}
+
+
+.card > .content {
+  padding: 20px;
+}
