@@ -7,6 +7,7 @@ pipeline {
             }
             steps {
                 ansiColor('xterm') {
+                    sh 'rm -rf node_modules/'
                     sh 'npm install'
                     sh 'npm build'
                 }
