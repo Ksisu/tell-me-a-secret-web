@@ -19,9 +19,7 @@ pipeline {
                     def image = docker.build("tell-me-a-secret/frontend:${env.GIT_COMMIT}")
                     docker.withRegistry('https://registry.wanari.net', 'jenkins-registry') {
                         image.push()
-                        if (env.GIT_BRANCH == 'origin/development') {
-                            image.push("qa")
-                        }
+                        image.push("latest")
                     }
                 }
             }
