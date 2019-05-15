@@ -1,11 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { CreateSecretModule } from './create-secret/create-secret.module';
-import { RoutingModule } from './routing.module';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {NotFoundComponent} from './not-found/not-found.component';
 import {ShowSecretModule} from './show-secret/show-secret.module';
-import { NotFoundComponent } from './not-found/not-found.component';
+import {CreateSecretModule} from './create-secret/create-secret.module';
 import {SharedModule} from './shared/shared.module';
 
 @NgModule({
@@ -18,9 +18,10 @@ import {SharedModule} from './shared/shared.module';
     SharedModule,
     CreateSecretModule,
     ShowSecretModule,
-    RoutingModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

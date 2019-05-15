@@ -20,6 +20,7 @@ body {
   background-color: mat-color(mat-palette($mat-indigo));
   color: white;
 }
+
 .card > .title.error {
   background-color: mat-color(mat-palette($mat-pink));
 }

@@ -1,6 +1,6 @@
-import { NgModule } from '@angular/core';
-import { ShowSecretComponent } from './show-secret.component';
-import { SharedModule } from '../shared/shared.module';
+import {NgModule} from '@angular/core';
+import {ShowSecretComponent} from './show-secret.component';
+import {SharedModule} from '../shared/shared.module';
 
 @NgModule({
   imports: [
@@ -9,4 +9,5 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [ShowSecretComponent],
   exports: [ShowSecretComponent]
 })
-export class ShowSecretModule { }
+export class ShowSecretModule {
+}

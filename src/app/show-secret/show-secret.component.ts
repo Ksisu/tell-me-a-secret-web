@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { SecretService } from '../shared/secret.service';
-import { ActivatedRoute, Router } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {SecretService} from '../shared/secret.service';
+import {ActivatedRoute, Router} from '@angular/router';
 import {ClipboardService} from 'ngx-clipboard';
 import {MatSnackBar} from '@angular/material';
 
@@ -18,7 +18,8 @@ export class ShowSecretComponent implements OnInit {
     private router: Router,
     private secretService: SecretService,
     private clipboardService: ClipboardService,
-    private snackBar: MatSnackBar) { }
+    private snackBar: MatSnackBar) {
+  }
 
   ngOnInit() {
     this.loadSecret();

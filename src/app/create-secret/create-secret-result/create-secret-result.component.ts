@@ -1,6 +1,6 @@
-import { Component, Input } from '@angular/core';
-import { MatSnackBar } from '@angular/material';
-import { ClipboardService } from 'ngx-clipboard';
+import {Component, Input} from '@angular/core';
+import {MatSnackBar} from '@angular/material';
+import {ClipboardService} from 'ngx-clipboard';
 
 @Component({
   selector: 'app-create-secret-result',
@@ -10,7 +10,8 @@ export class CreateSecretResultComponent {
 
   @Input() result: string;
 
-  constructor(private snackBar: MatSnackBar, private clipboard: ClipboardService) { }
+  constructor(private snackBar: MatSnackBar, private clipboard: ClipboardService) {
+  }
 
   copy() {
     this.clipboard.copyFromContent(this.result);

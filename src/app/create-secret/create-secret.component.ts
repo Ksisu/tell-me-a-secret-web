@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {SecretService} from '../shared/secret.service';
 import {CreateSecret} from '../shared/create-secret';
 
@@ -11,7 +11,8 @@ export class CreateSecretComponent implements OnInit {
   state = 'create';
   result: string;
 
-  constructor(private secretService: SecretService) { }
+  constructor(private secretService: SecretService) {
+  }
 
   ngOnInit() {
     this.state = 'create';

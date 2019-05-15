@@ -1,5 +1,5 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { CreateSecret } from '../../shared/create-secret';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {CreateSecret} from '../../shared/create-secret';
 
 @Component({
   selector: 'app-create-secret-form',

@@ -1,11 +1,11 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from '../material/material.module';
-import { SecretService } from './secret.service';
-import { ClipboardModule } from 'ngx-clipboard';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MaterialModule} from '../material/material.module';
+import {SecretService} from './secret.service';
+import {ClipboardModule} from 'ngx-clipboard';
 
 @NgModule({
   imports: [
@@ -26,4 +26,5 @@ import { ClipboardModule } from 'ngx-clipboard';
     MaterialModule
   ]
 })
-export class SharedModule { }
+export class SharedModule {
+}
