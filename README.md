@@ -15,7 +15,7 @@ services:
     environment:
       REDIS_HOST: db
       REDIS_PORT: 6379
-      CYPTOR_SECRET: '4AmEdqF7YTruR2o4^2BfwkSA0weHtEVgHzo7Rqy'
+      CRYPTOR_SECRET: '4AmEdqF7YTruR2o4^2BfwkSA0weHtEVgHzo7Rqy'
     ports:
       - 8080:8080
   web:
