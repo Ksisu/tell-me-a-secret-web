@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {SecretService} from '../shared/secret.service';
 import {ActivatedRoute, Router} from '@angular/router';
 import {ClipboardService} from 'ngx-clipboard';
-import {MatSnackBar} from '@angular/material';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-show-secret',
