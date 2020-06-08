@@ -22,7 +22,7 @@
     "@angular/router": "9.1.9",
     "ngx-clipboard": "13.0.1",
     "rxjs": "6.5.5",
-    "serialize-javascript": "3.1.0",
+    "serialize-javascript": "4.0.0",
     "tslib": "2.0.0",
     "zone.js": "0.10.3"
   },
