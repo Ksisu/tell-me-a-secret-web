@@ -23,7 +23,7 @@
     "ngx-clipboard": "13.0.1",
     "rxjs": "6.6.3",
     "serialize-javascript": "5.0.1",
-    "tslib": "2.0.1",
+    "tslib": "2.0.2",
     "zone.js": "0.11.1"
   },
   "devDependencies": {
