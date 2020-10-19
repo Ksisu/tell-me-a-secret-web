@@ -20,7 +20,7 @@
     "@angular/platform-browser": "9.1.11",
     "@angular/platform-browser-dynamic": "9.1.11",
     "@angular/router": "9.1.11",
-    "ngx-clipboard": "13.0.1",
+    "ngx-clipboard": "14.0.1",
     "rxjs": "6.6.3",
     "serialize-javascript": "5.0.1",
     "tslib": "2.0.3",
