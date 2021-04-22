@@ -5,7 +5,7 @@ RUN npm install
 COPY . .
 RUN npm run lint && npm run build
 
-FROM nginx:1.19.10-alpine
+FROM nginx:1.20.0-alpine
 COPY nginx/* /etc/nginx/conf.d/
 RUN rm -rf /usr/share/nginx/html/*
 ENTRYPOINT ["/etc/nginx/conf.d/setup_env.sh"]
