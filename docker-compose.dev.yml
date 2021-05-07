@@ -1,7 +1,7 @@
 version: '3'
 services:
   db:
-    image: redis:5
+    image: redis:6
   backend:
     image: ksisu/tell-me-a-secret
     depends_on:
